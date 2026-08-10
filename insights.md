@@ -18,7 +18,6 @@ This indicates that a significant portion of revenue is concentrated in a small 
   - Regional pricing strategies  
 
 
-
 ## 2. Customer Retention is the Largest Growth Opportunity
 
 - Total customers:  ~96,096 
@@ -40,7 +39,6 @@ The vast majority ( ~97% ) of customers make only one purchase.
 - Re-engagement campaigns
 
 
-
 ## 3. Repeat Customers are Significantly More Valuable
 
 | Customer Type | Avg. Customer Value |
@@ -53,7 +51,6 @@ Repeat customers generate  ~2× higher value per customer .
  Business Implication 
 - Retention is not just a volume issue, it's a  revenue multiplier 
 - Even small improvements in retention can significantly increase revenue
-
 
 
 ## 4. Revenue Still Depends on One-Time Customers
@@ -69,7 +66,6 @@ Repeat customers generate  ~2× higher value per customer .
 - Converting even a fraction into repeat buyers could unlock  substantial revenue growth 
 
 
-
 ## 5. Customer Value is Highly Uneven
 
 - Average customer value:  ~166.59 
@@ -82,7 +78,6 @@ Some customers generate high revenue even with a single purchase.
 - Segmentation should consider:
   - Monetary value  
   - Purchase behavior  
-
 
 
 ## 6. RFM Segmentation Reveals Actionable Customer Groups
@@ -105,7 +100,6 @@ Key highlights:
   - High past spend  
   - Declining recent activity  
 - Ideal target for  reactivation campaigns 
-
 
 
 ## 7. Seller Ecosystem Shows Moderate Concentration
@@ -136,7 +130,6 @@ Two clear opportunity segments:
 - Support & enablement
 
 
-
 ## 8. Logistics Performance is Strong but Not Uniform
 
 - On-time deliveries:  ~92.13% 
@@ -146,7 +139,6 @@ Two clear opportunity segments:
  Insight 
 - Operational performance is strong overall  
 - However, delays are  non-trivial in duration 
-
 
 
 ## 9. Delays are Associated with Higher-Value Orders
@@ -166,7 +158,6 @@ Delayed orders are  ~9% higher in value .
   - Brand perception  
 
 
-
 ## 10. Multi-Seller Orders Are Rare but Interesting
 
 - Single-seller orders:  ~98.70% 
@@ -179,7 +170,6 @@ Delayed orders are  ~9% higher in value .
  Important Observation 
 - Multi-seller orders showed  lower delay rates  than expected  
 - Suggests that seller count alone does not drive delivery performance  
-
 
 
 # Business Recommendations
@@ -208,16 +198,6 @@ Focus analysis on:
 - Regions
 - Heavy/large products
 
-
-
-# Project Takeaway
-
-This project demonstrates how SQL can be used to solve real business problems across:
-
-- Revenue performance  
-- Customer behavior  
-- Marketplace dynamics  
-- Operational efficiency  
 
 ### Core Insight
 
