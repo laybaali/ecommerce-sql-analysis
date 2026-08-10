@@ -16,7 +16,6 @@ The goal is to simulate real-world business analysis by answering practical ques
 The project combines  Python-based data preparation  with  SQL-driven analytical problem solving , and includes visualizations to communicate key business insights.
 
 
-
 ## Business Objectives
 
 The analysis is structured into four key areas:
@@ -47,7 +46,6 @@ The analysis is structured into four key areas:
 - Revenue exposure to delivery delays
 
 
-
 ## Tools & Technologies
 
 -  Python 
@@ -68,7 +66,6 @@ The analysis is structured into four key areas:
   - Git & GitHub
 
 
-
 ## Dataset
 
 This project uses the  Brazilian E-Commerce Public Dataset (Olist) :
@@ -86,7 +83,6 @@ The dataset contains ~100K orders and includes:
 - Reviews
 - Product categories
 - Geographic data
-
 
 
 ##  Project Structure
@@ -134,7 +130,6 @@ ecommerce-sql-analysis/
 - Saves outputs to `/outputs/charts`
 
 
-
 ## Key Analysis Highlights
 
 ### Business Performance
@@ -163,7 +158,6 @@ ecommerce-sql-analysis/
 - Delayed orders contribute significant revenue, highlighting potential customer experience risk
 
 
-
 ## Visual Insights
 
 The project includes key visualizations:
@@ -176,7 +170,6 @@ The project includes key visualizations:
 These charts help translate SQL analysis into clear business insights.
 
 
-
 ## Key Takeaways
 
 - Revenue and customer value are  highly concentrated 
@@ -184,16 +177,6 @@ These charts help translate SQL analysis into clear business insights.
 - Logistics performance is strong but not uniform across scenarios
 - Product characteristics (like weight) directly influence operations
 - Delivery delays impact both  customer experience and revenue exposure 
-
-
-
-## Future Improvements
-
-- Add dashboard (Power BI / Tableau)
-- Incorporate customer review sentiment analysis
-- Predict delivery delays using machine learning
-- Build cohort retention analysis
-
 
 
 ## Conclusion
