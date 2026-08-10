@@ -91,9 +91,36 @@ The dataset contains ~100K orders and includes:
 
 ##  Project Structure
 
-<pre> ## 📁 Project Structure ``` ecommerce-sql-analysis/ │ ├── README.md ├── data_model.sql │ ├── queries/ │ ├── 01_business_overview.sql │ ├── 02_customer_analysis.sql │ ├── 03_seller_analysis.sql │ └── 04_logistics_analysis.sql │ ├── notebooks/ │ ├── data_cleaning.ipynb │ └── visualization.ipynb │ ├── outputs/ │ └── charts/ │ ├── on_time_vs_delayed_orders.png │ ├── weight_vs_delivery_time.png │ ├── delay_rate_by_order_type.png │ └── revenue_by_delivery_status.png │ └── insights.md ``` </pre>
+## 📁 Project Structure
 
-
+```
+ecommerce-sql-analysis/
+│
+├── README.md
+│
+├── data_model.sql
+│   
+├── queries/
+│   ├── 01_business_overview.sql 
+│   ├── 02_customer_analysis.sql  
+│   ├── 03_seller_analysis.sql  
+│   └── 04_logistics_analysis.sql
+│      
+│
+├── notebooks/
+│   ├── data_cleaning.ipynb  
+│   └── visualization.ipynb
+│      
+│
+├── outputs/
+│   └── charts/
+│       ├── on_time_vs_delayed_orders.png   
+│       ├── weight_vs_delivery_time.png 
+│       ├── delay_rate_by_order_type.png
+│       └── revenue_by_delivery_status.png
+│           
+└── insights.md
+```
 
 ## Notebooks
 
