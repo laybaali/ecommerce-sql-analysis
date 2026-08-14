@@ -1,18 +1,17 @@
 -- Customer Behavior Analysis
 
--- Base customer metrics (reusable)
-WITH customer_base AS (
-    SELECT
-        c.customer_unique_id,
-        COUNT(DISTINCT o.order_id) AS order_count,
-        ROUND(SUM(p.total_payment), 2) AS lifetime_value
-    FROM customers c
-    JOIN orders o
-        ON c.customer_id = o.customer_id
-    JOIN payments_summary p
-        ON o.order_id = p.order_id
-    GROUP BY c.customer_unique_id
-)
+-- Base customer view
+CREATE VIEW customer_base AS
+SELECT
+    c.customer_unique_id,
+    COUNT(DISTINCT o.order_id) AS order_count,
+    ROUND(SUM(p.total_payment), 2) AS lifetime_value
+FROM customers c
+JOIN orders o
+    ON c.customer_id = o.customer_id
+JOIN payments_summary p
+    ON o.order_id = p.order_id
+GROUP BY c.customer_unique_id;
 
 
 -- 1. Total Customers
